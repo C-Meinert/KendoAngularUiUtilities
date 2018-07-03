@@ -152,7 +152,7 @@ namespace KendoUtilities.KendoGrid
                 return "";
 
             int index = filters.IndexOf(this);
-            string comparison = operatorsLinq[Operator];
+            string comparison = operatorsSql[Operator];
 
             if (String.Equals(Operator, "doesnotcontain", StringComparison.InvariantCultureIgnoreCase)
                 || String.Equals(Operator, "contains", StringComparison.InvariantCultureIgnoreCase))
